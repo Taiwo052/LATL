@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero{
+    background-image: url('images/Nina_Cabin_in_the_woods_near_lake_shveden_architecture_evening__3ff05144-a7ef-4960-816c-adc93bb073bc\ 1.png');
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 12% 0 4%;
+}
+
+.logo{
+    position: relative;
+    color: #ffffff;
+}
+
+.logo .nostyle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.logo .style{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-left: 39px;
+    text-transform: uppercase;
+    top: 25px;
+}
+
+.navbar{
+    margin: 0 0 0 10%;
+    /* width: 80%; */
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #FFF8F8;
+    text-transform: uppercase;
+}
+
+.hero_copy{
+    display: block;
+    margin: 20% 0 0 4%;
+    color: #FFF8F8;
+}
+
+.hero_heading{
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.hero_copy .hero_heading h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.hero_copy .hero_heading .heading_style{
+    font-style: italic;
+}
+
+.hero_copy .hero_heading h1 span{
+    position: absolute;
+    content: '';
+    right: 40%;
+
+}
+
+.hero_footer{
+    display: flex;
+    margin-top: 70px;
+    width: 100%;
+    gap: 349px;
+    padding-bottom: 79px;
+}
+
+.hero_footer .hero_body{
+    width: 30%;
+}
+
+.hero_footer .hero_body p{
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF8F8;
+}
+.btn{
+    position: relative;
+}
+.btn_line{
+    position: relative;
+    background: none;
+    font-family: 'inter', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF8F8;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-transform: uppercase;
+
+}
+
+.btn_line::before{
+    position: absolute;
+    content: "";
+    width: 77%;
+    height: 3%;
+    top: 45px;
+    background-color: #FFF8F8;
+}
+
+.btn .btn_icon{
+    background-color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 60px;
+}
+
+.btn img{
+    width: 16px;
+    height: 16px;
+}
+
+.about_container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin: 56px 12% 56px 4%;
+    color: #1E1E1F;
+    /* width: 100%; */
+
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #1E1E1F;
+
+}
+
+.about_subheading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+
+.about_body{
+    font-family: 'inter, sans serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 0 0 32%;
+}
+
+.about_body .span{
+    margin-top: 60px;
+}
+
+.about2{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: #1E1E1F;
+    margin-top: 56px;
+    text-align: left;
+    /* width: 100%; */
+}
+
+.about_img img{
+    width: 350px;
+    height: 350px;
+}
+
+.about_body2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 60px 99px;
+    grid-template-columns: 206px 190px;
+    grid-template-rows: 131px 131px;
+    color: #1E1E1F;
+    margin: 0 0 0 27%;
+}
+
+.about_work{
+    color: #1E1E1F;
+    width: 150px;
+}
+
+.about_work h2{
+    font-family: 'inter, sans serif';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.about_work p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.offers{
+    position: relative;
+    margin: 124px 4% 56px 4%;
+    color: #1E1E1F;
+}
+
+.of{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer_header{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #B8B8BF;
+    border-top: 1px solid #B8B8BF;
+    padding: 30px 0;
+}
+
+.offer_header h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B8B8BF;
+    text-transform: uppercase;
+}
+
+.offer_header p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: super;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B8B8BF;
+    text-transform: uppercase;
+}
+.offer_heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.offer_header .super{
+    color:#1E1E1F;
+    position: relative;
+}
+
+.offer_header .super::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4%;
+    top: 40px;
+    background-color:#1E1E1F;
+}
+
+.offer_header .super_color{
+    color:#1E1E1F;
+}
+
+.offer_img{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    right: 0;
+    top: 2%;
+}
+
+
+.offer_img p{
+    max-width: 300px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.offer_img .inside{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+    padding-left: 30px;
+    gap: 30px;   
+}
+
+.offer_img .inside p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.offer_img .img img{
+    width: 120px;
+    height: 170px;
+}
+
+.offer_img .img2 img{
+    width: 24px;
+    height: 24px;
+}
+
+.projects{
+    position: relative;
+    margin: 124px 0 56px 4%;
+}
+.project_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.project_heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 4%;
+
+}
+
+.project_heading h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.project_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project_side {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_heading .project_side h2{
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.project_side .project_icon img{
+    width: 24px;
+    height: 24px;
+}
+
+.project_cardcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    overflow: hidden;
+    margin-top: 24px;
+}
+
+.project_card{
+    margin-right: 120px;
+
+}
+
+.project_card img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 16px;
+}
+
+.project_card1 img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 16px;
+}
+.project_card1{
+    padding-left: 40px;
+}
+
+.project_card .project_cardinfo img{
+    width: 24px;
+    height: 24px;
+}
+
+.project_cardinfo h1{
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.project_card .project_cardimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project_card .project_cardimg h1{
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1E1E1F;
+}
+.project_border{
+    width: 140px;
+    border: 1px solid #B8B8BF;
+    border-radius: 20px;
+    margin-top: 16px;
+}
+.project_border h2{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.gallery{
+    background-color: #1E1E1F;
+    color: #FFF8F8;
+}
+
+.gallery_container{
+    width: 100%;
+    margin: 124px 0 56px;
+    gap: 15rem;
+    display: flex;  
+    justify-content: space-between;
+} 
+.gallery_container .gallery_text{
+    width: 50%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0 50px 50px ;
+}
+
+.gallery_container .gallery_text h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.gallery_container .gallery_body{
+    display: block;
+}
+
+.gallery_container .gallery_body p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    
+}
+
+.gallery_imgs{
+    height: 650px;
+    display: flex;
+    width: 50%;
+    column-gap: 10px;
+}
+
+.one img{
+    height: 520px;
+    width: 360px;
+    background-size: cover;
+}
+
+.one, .four{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.four img{
+    height: 450px;
+    width: 483px;
+    background-size: cover;
+}
+
+.contact{
+    position: relative;
+    margin: 60px 12% 56px 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact_heading{
+    margin-bottom: 20%;
+}
+
+.contact_container .contact_heading h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contact_container .contact_heading p{
+    width: 50%;
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_address, .contact_email, .contact_number{
+    margin-top: 30px;
+}
+
+.contact_address h1, .contact_email h1, .contact_number h1{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.contact_address p, .contact_email p, .contact_number p{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.contact .contact_form_container{
+    width: 50%;
+}
+
+.contact_form_text h2{
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    
+}
+
+.form_flex{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+label{
+    position: absolute;
+    content: '';
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B8B8BF;
+    text-transform: uppercase;
+    left: 0px;
+    transform: translateY(-50);
+    transition: -5s;
+}
+
+form .label{
+    position: relative;
+    border-bottom: 1px solid #B8B8BF;
+    margin-bottom: 40px;
+}
+
+form label{
+    position: absolute;
+    content: '';
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B8B8BF;
+    text-transform: uppercase;
+
+}
+
+input:focus ~ label{
+    top: -6px;
+}
+
+.label input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 20px 0 6px;
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1F;
+}
+
+.btn_sm{
+    position: relative;
+}
+.btn_text{
+    position: relative;
+    background: none;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1F;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+
+}
+
+.btn_text::before{
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 3%;
+    top: 35px;
+    background-color: #1E1E1F;
+}
+
+.btn_sm .btn_icon_sm{
+    background-color: #1E1E1F;
+    padding: 8px 14px;
+    border-radius: 60px;
+}
+
+.btn_sm img{
+    width: 12px;
+    height: 12px;
+}
+
+/* .gallery_imgs .one img{
+    height: 38px;
+    align-self: start;
+
+}
+
+.gallery_imgs .three{
+    grid-column: 1/2;
+
+} */
+
+@media (min-width: 1200px) {
+    /* .about_subheading{
+        font-family: 'Raleway, sans serif';
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-transform: uppercase;
+    }
+    
+    .about_body{
+        font-family: 'inter, sans serif';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0 0 0 30%;
+    } */
+}
